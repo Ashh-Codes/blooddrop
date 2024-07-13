@@ -1,0 +1,252 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.nav-link{
+    color: white;
+    font-size: 20px;
+    margin-right: 4px;
+}
+.drops{
+    margin-right: -10px;
+    /* animation: shm 2s  alternate; */
+}
+/* 
+
+@keyframes shm {
+    from {
+        margin-top:0px;
+        animation-timing-function: cubic-bezier(0.25, 0.01, 0.55, 0.16);
+    }
+    25% {
+        margin-top:2px;
+        animation-timing-function: cubic-bezier(0.52, 0.44, 0.47, 0.44);
+    }
+    50% {
+        margin-top:4px;
+        animation-timing-function: cubic-bezier(0.53, 0.56, 0.48, 0.56);
+    }
+    75% {
+        margin-top:6px;
+        animation-timing-function: cubic-bezier(0.45, 0.84, 0.75, 0.99);
+    }
+    to {
+        margin-top:7px;
+    }
+} */
+#spacebar{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 1px;
+   
+    padding: 9px;
+    margin-top: 1px;
+    text-align: center;
+   
+}
+
+#spacebar:hover{
+    background-color:black;
+    color: white;
+    
+}
+.slide-content{
+    margin-bottom: 250px;
+}
+#learn{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 1px;
+   
+    padding: 9px;
+    margin-top: 1px;
+    text-align: center;
+    margin-right: 10px;
+}
+#sponsor{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border-radius: 1px;
+   
+    padding: 9px;
+    margin-top: 1px;
+    text-align: center;
+}
+#learn:hover{
+    background-color:red;
+    color: white;
+}
+
+#sponsor:hover{
+    background-color:white;
+    color: black;
+}
+#achieve{
+    text-decoration: none;
+    background-color:red;
+    color: white;
+    border-radius: 1px;
+   
+    padding: 9px;
+    margin-top: 1px;
+    text-align: center;
+    width: -200px;
+
+}
+.card-text{
+    font-size: 18px;
+}
+.marq{
+    border:black 2px solid;
+    color: red;
+    font-weight: 700 ;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+.gallery img{
+    border-radius: 8px;
+    height: 150px
+
+    
+}
+.gallery img:hover{
+    transform: scale(1.02);
+}
+#doner{
+    text-decoration: none;
+ 
+    color: white;
+    border-radius: 1px;
+   background-color: rgba(164, 14, 14, 0.793);
+    padding: 9px;
+    margin-top: 1px;
+    text-align: center;
+    width: 30px;
+}
+#doner:hover{
+    background-color:black;
+    color: white;
+}
+/* .gallery {
+    
+    position: relative;
+    animation: mymove 2s ;
+  }
+
+  
+  @keyframes mymove {
+    from {top: -600px;}
+    to {top: 10px;}
+  } */
+
+
+.bg-gallery{
+    background-image: url("https://media.istockphoto.com/vectors/red-blood-cells-vector-illustration-vector-id664271818?k=6&m=664271818&s=612x612&w=0&h=-NN0r9kmF0ndbtoYb3PLmrOYvu4QIkgiR_nK7lTxfus=");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://regencyhealthcare.in/wp-content/uploads/2018/08/blood-donation-3.png");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.foot{
+    margin-top: 50px;
+}
+.foot row{
+    margin-top: 50px;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px 0px 20px;
+    
+   
+}
+.icon:hover{
+    background-image: linear-gradient(red,white);
+}
+.brands{
+    color: black;
+    font-size: 30px;
+    
+    
+}
+.up-arrow{
+    float: right;
+    margin: -70px 30px 30px 0px;
+}
+.icon:hover .brands{
+    color: white;
+    animation: rotate 3s;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    80%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
+@media(max-width:786px){
+    .carousel-item img{
+        height: 700px;
+        width: 100%;
+    }
+    .button-learn{
+        width: 100px;
+    }
+    .button-achieve{
+        width: 500px;
+    }
+    .gallery-img {
+        margin-bottom: 20px;
+        width: 300px;
+    }
+    iframe {
+        width: 400px;
+        margin-top: 20px;
+        margin-left: -40px;
+    }
+
+}
